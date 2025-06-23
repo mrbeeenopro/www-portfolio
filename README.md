@@ -1,3 +1,3 @@
 <p align="center">
-  my ✨ fancy ✨ personal site
+# new my portfolio powerd by nuxt3
 </p>
