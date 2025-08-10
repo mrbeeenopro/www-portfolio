@@ -10,7 +10,7 @@
         class="border border-surface0 bg-crust image-crisp"
       />
     </NuxtLink>
-    <NuxtLink to="https://h3l2f.site" rel="noopener">
+    <NuxtLink to="https://h3l2f.online" rel="noopener">
       <NuxtImg
         src="/assets/images/88x31/h3l2f.png"
         alt="h3l2f.site"
@@ -20,7 +20,7 @@
         class="border border-surface0 bg-crust image-crisp"
       />
     </NuxtLink>
-    <NuxtLink to="https://trancongthang.site/c" rel="noopener">
+    <NuxtLink to="https://trancongthang.site/" rel="noopener">
       <NuxtImg
         src="/assets/images/88x31/thangmc2374.png"
         alt="thangmc2374"
