@@ -13,16 +13,16 @@
       href="https://github.com/mrbeeenopro/pterodactyl-vi"
     />
     <ProjectCard
-      title="beecloud"
-      description="a small hosting from vietnam"
-      cover="/assets/images/projects/beecloud.png"
-      href="https://beecloud.vn"
+      title="lemem windows"
+      description="windows 11 virtual machine on pterodactyl"
+      cover="/assets/images/projects/windows11.png"
+      href="https://github.com/mrbeeenopro/lemem_windows"
     />
     <ProjectCard
       title="lemem developers"
       description="A community of developers in Vietnam"
       cover="/assets/images/projects/Lemem_Developer.png"
-      href="https://discord.gg/lememdev"
+      href="https://discord.gg/AqrUvWkxU8"
     />    
   </div>
 </template>
