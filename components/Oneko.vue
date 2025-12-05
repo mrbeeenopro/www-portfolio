@@ -4,13 +4,13 @@ import { onMounted } from 'vue';
 
 onMounted(() => {
 
-    if (process.client && !document.querySelector('script[src="/assets/oneko.js"]')) {
+    if (process.client && !document.querySelector('script[src="/public/assets/oneko.js"]')) {
         
   
         const script = document.createElement('script');
         
  
-        script.src = "/assets/oneko.js"; 
+        script.src = "/public/assets/oneko.js"; 
         
         script.async = true;
         
