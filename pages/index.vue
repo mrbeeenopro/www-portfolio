@@ -79,6 +79,9 @@
         </svg>
         github
       </Infobox>
+      <ClientOnly>
+      <Oneko />
+    </ClientOnly>
     </NuxtLink>
   </div>
 </template>
@@ -86,7 +89,7 @@
 <script>
 import Infobox from "~/components/Infobox.vue";
 import AgeCounter from "~/components/AgeCounter.vue";
-
+import Oneko from "~/components/Oneko.vue";
 export default {
   components: { Infobox, AgeCounter },
 };
