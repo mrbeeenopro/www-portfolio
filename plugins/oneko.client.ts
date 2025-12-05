@@ -1,7 +1,7 @@
 export default defineNuxtPlugin(() => {
   if (process.client) {
     const script = document.createElement("script");
-    script.src = "https://unpkg.com/oneko@latest/oneko.js";
+    script.src = "https://raw.githubusercontent.com/adryd325/oneko.js/master/oneko.js";
     script.async = true;
     script.onload = () => {
       if (window.oneko) {
