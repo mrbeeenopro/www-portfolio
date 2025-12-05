@@ -1,13 +1,13 @@
 export default defineNuxtPlugin(() => {
   if (process.client) {
     const script = document.createElement("script");
-    script.src = "https://raw.githubusercontent.com/adryd325/oneko.js/master/oneko.js";
+    script.src = "https://unpkg.com/oneko.js@1.0.0/oneko.js";
     script.async = true;
     script.onload = () => {
       if (window.oneko) {
-        window.oneko({
-          scale: 1,   
-        });
+        window.oneko();
+      } else {
+        console.error("Oneko not loaded");
       }
     };
     document.body.appendChild(script);
