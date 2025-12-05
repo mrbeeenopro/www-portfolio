@@ -46,17 +46,17 @@ useHead({
 
     // OG tags
     { property: "og:type", content: "website" },
-    { property: "og:url", content: "https://yourwebsite.com/" },
+    { property: "og:url", content: "https://mrbeeno.pro/" },
     { property: "og:title", content: "Hi I'm Mrbeenopro" },
     { property: "og:description", content: "Welcome to my homepage!" },
-    { property: "og:image", content: "https://metatags.io/images/meta-tags.png" },
+    { property: "og:image", content: "/assets/images/color.png" },
 
     // Twitter tags
     { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:url", content: "https://yourwebsite.com/" },
+    { name: "twitter:url", content: "https://mrbeeno.pro/" },
     { name: "twitter:title", content: "Hi I'm Mrbeenopro" },
     { name: "twitter:description", content: "Welcome to my homepage!" },
-    { name: "twitter:image", content: "https://metatags.io/images/meta-tags.png" },
+    { name: "twitter:image", content: "/assets/images/color.png" },
   ]
 });
 </script>
