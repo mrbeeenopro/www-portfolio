@@ -24,10 +24,7 @@
 
     <!-- Footer -->
     <footer class="mt-12 text-center text-xs text-overlay1 opacity-70">
-      2025 mrbeenopro — a fork of
-      <a href="https://prpl.wtf/" target="_blank" class="underline hover:text-overlay2">
-        emma homepages
-      </a>
+      2025 mrbeenopro
       <script src="https://cdn.jsdelivr.net/gh/adryd325/oneko.js/oneko.js"></script>
     </footer>
   </NuxtLayout>
