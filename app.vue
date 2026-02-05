@@ -24,7 +24,7 @@
 
     <!-- Footer -->
     <footer class="mt-12 text-center text-xs text-overlay1 opacity-70">
-      2025 mrbeenopro
+     © 2026 Mrbeenopro
       <script src="https://cdn.jsdelivr.net/gh/adryd325/oneko.js/oneko.js"></script>
     </footer>
   </NuxtLayout>
