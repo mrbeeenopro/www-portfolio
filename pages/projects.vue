@@ -1,38 +1,41 @@
 <template>
-  <div class="grid grid-cols-2 gap-4">
-    <ProjectCard
-      title="oldcord"
-      description="A theme for Discord that brings the old ui back"
-      cover="/assets/images/projects/banner.png"
-      href="https://github.com/mrbeeenopro/oldcord"
-    />    
-    <ProjectCard
-      title="Pterodactyl vi language"
-      description="Vietnamese language pack for Pterodactyl"
-      cover="/assets/images/projects/pterodactyl-vi.png"
-      href="https://github.com/mrbeeenopro/pterodactyl-vi"
-    />
-    <ProjectCard
-      title="lemem windows"
-      description="windows 11 virtual machine on pterodactyl"
-      cover="/assets/images/projects/windows11.png"
-      href="https://github.com/mrbeeenopro/lemem_windows"
-    />
-    <ProjectCard
-      title="lemem developers"
-      description="A community of developers in Vietnam"
-      cover="/assets/images/projects/Lemem_Developer.png"
-      href="https://discord.gg/AqrUvWkxU8"
-    />    
+  <div class="w-full max-w-4xl mx-auto py-6 font-mono">
+    
+    <!-- Section Heading MD: 16px bold -->
+    <div class="mb-8">
+      <div class="mb-2 text-xs text-opencode-mute">/usr/bin/projects</div>
+      <h1 class="text-xl font-bold tracking-tight mb-2 text-opencode-ink">
+        [+] Software Manifest
+      </h1>
+      <p class="text-opencode-body text-sm max-w-2xl">
+      </p>
+    </div>
+
+    <div class="border-t border-opencode-hairline my-6"></div>
+
+    <!-- Projects Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <ProjectCard
+        v-for="project in projects"
+        :key="project.href"
+        :title="project.title"
+        :description="project.description"
+        :cover="project.cover"
+        :href="project.href"
+      />
+    </div>
+
+    <!-- Return links -->
+    <div class="mt-16 text-center border-t border-opencode-hairline pt-6">
+      <NuxtLink to="/" class="text-xs text-opencode-mute hover:text-opencode-ink">
+        &larr; return to home console
+      </NuxtLink>
+    </div>
+
   </div>
 </template>
 
-<script>
+<script setup>
 import ProjectCard from "~/components/ProjectCard.vue";
-
-export default {
-  components: {
-    ProjectCard,
-  },
-};
+import projects from "~/data/projects.json";
 </script>

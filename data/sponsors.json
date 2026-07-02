@@ -1,0 +1,26 @@
+[
+  {
+    "name": "redsus",
+    "handle": "@redsus",
+    "amount": 12.00,
+    "avatarType": "skull",
+    "avatarUrl": "",
+    "link": ""
+  },
+  {
+    "name": "omhvn",
+    "handle": "@omhvn",
+    "amount": 10.00,
+    "avatarType": "server",
+    "avatarUrl": "",
+    "link": "https://omhvn.vercel.app/"
+  },
+  {
+    "name": "h3l2f",
+    "handle": "@h3l2f",
+    "amount": 1.00,
+    "avatarType": "cat",
+    "avatarUrl": "",
+    "link": ""
+  }
+]

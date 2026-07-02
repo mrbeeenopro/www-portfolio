@@ -4,15 +4,124 @@
 
 @layer base {
   body {
-    @apply bg-crust;
+    @apply bg-opencode-canvas text-opencode-ink antialiased select-text;
+    font-family: 'JetBrains Mono', 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    font-size: 16px;
+    line-height: 1.5;
   }
 
+  /* Force every single text role to monospaced face - no sans-serif anywhere */
   * {
-    @apply text-text;
+    font-family: 'JetBrains Mono', 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-normal text-opencode-ink;
+    margin: 0;
+  }
+
+  p {
+    @apply text-opencode-body;
+    margin: 0;
+  }
+
+  a {
+    @apply text-opencode-ink underline transition-opacity duration-200;
+  }
+
+  a:hover {
+    @apply opacity-80;
+  }
+
+  a:active {
+    @apply opacity-100;
+  }
+
+  code, pre {
+    @apply bg-opencode-surface-soft border border-opencode-hairline rounded-[4px] px-1 py-0.5 text-xs text-opencode-ink font-mono;
   }
 }
 
 .image-crisp {
   image-rendering: crisp-edges;
   image-rendering: -webkit-optimize-contrast;
+}
+
+/* Custom layout spacing utilities */
+.spacing-section {
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+
+/* Base custom TUI animation for cursor blink inside mockup */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.tui-cursor {
+  animation: blink 1s step-end infinite;
+}
+
+/* Custom Purple avatar-matched hover effects */
+.glow-matrix-hover {
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.glow-matrix-hover:hover {
+  border-color: rgba(191, 90, 242, 0.6) !important;
+  box-shadow: 0 0 15px rgba(191, 90, 242, 0.25);
+  transform: translateY(-2px);
+}
+
+/* Scanlines animation overlay */
+.scanline-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.scanline-container::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.scanline-container:hover::before {
+  opacity: 0.15;
+}
+
+/* Nav underline matrix slide-in effect */
+.nav-link-matrix {
+  position: relative;
+  text-decoration: none !important;
+}
+
+.nav-link-matrix::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: #bf5af2;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link-matrix:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-link-matrix:hover {
+  color: #bf5af2 !important;
+  opacity: 1 !important;
 }

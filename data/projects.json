@@ -1,0 +1,37 @@
+[
+  {
+    "title": "oldcord",
+    "description": "A theme for Discord that brings the old UI back, restoring classic features and nostalgia.",
+    "cover": "/assets/images/projects/banner.png",
+    "href": "https://github.com/mrbeeenopro/oldcord",
+    "stars": 1
+  },
+  {
+    "title": "Lemembox",
+    "description": "running virtual machine on pterodactyl",
+    "cover": "/assets/images/projects/lemem-box.png",
+    "href": "https://github.com/mrbeeenopro/Lemembox",
+    "stars": 0
+  },
+  {
+    "title": "Xlpanel",
+    "description": "fork of Xlpanel for Calagopus.",
+    "cover": "/assets/images/projects/xlpanel.png",
+    "href": "https://github.com/mrbeeenopro/Xlpanel",
+    "stars": 0
+  },
+  {
+    "title": "lemem developers",
+    "description": "A developer group and community hub in Vietnam focusing on sharing project builds and systems.",
+    "cover": "/assets/images/projects/Lemem_Developer.png",
+    "href": "https://discord.gg/AqrUvWkxU8",
+    "stars": 0
+  },
+  {
+    "title": "qunix_theme",
+    "description": "remake your calagopus panel with <3",
+    "cover": "https://opengraph.githubassets.com/1/mrbeeenopro/qunix_theme",
+    "href": "https://github.com/mrbeeenopro/qunix_theme",
+    "stars": 4
+  }
+]
