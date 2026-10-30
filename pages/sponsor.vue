@@ -100,11 +100,11 @@
                 <path d="M2 1h4v1H2zm-1 1h6v1H1zm0 1h6v1H1zm0 1h6v1H1zm1 1h4v1H2zm0 1h1v1H2zm2 0h1v1H4zm2 0h1v1H6z" fill="#ff3b30" />
               </svg>
               
-              <svg v-else-if="sponsor.avatarType === 'server'" class="w-full h-full" viewBox="0 0 8 8" xmlns="http://www/w3.org/2000/svg" shape-rendering="crispEdges">
+              <svg v-else-if="sponsor.avatarType === 'server'" class="w-full h-full" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
                 <path d="M1 1h6v4H1zm0 5h6v1H1zm2 1h2v1H3z" fill="#4ba3ff" /><path d="M2 2h4v2H2z" fill="#161414" />
               </svg>
               
-              <svg v-else-if="sponsor.avatarType === 'cat'" class="w-full h-full" viewBox="0 0 8 8" xmlns="http://www/w3.org/2000/svg" shape-rendering="crispEdges">
+              <svg v-else-if="sponsor.avatarType === 'cat'" class="w-full h-full" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
                 <path d="M1 1h1v2H1zm5 0h1v2H6zm-4 2h4v3H2zm0 3h1v1H2zm2 0h1v1H4zm2 0h1v1H6z" fill="#bf5af2" />
               </svg>
               
@@ -129,7 +129,7 @@
               </svg>
               <span>Sponsor</span>
             </span>
-            <span class="text-sm font-bold text-opencode-success font-mono">${{ sponsor.amount.toFixed(2) }}</span>
+            <span class="text-sm font-bold text-opencode-success font-mono">${{ sponsor.amount.toFixed(2) }}<span v-if="sponsor.period" class="text-xs font-normal text-opencode-mute">{{ sponsor.period }}</span></span>
           </div>
         </component>
       </div>

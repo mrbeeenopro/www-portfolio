@@ -21,7 +21,7 @@
           </h1>
 
           <p class="text-opencode-ink-deep text-sm md:text-[16px] leading-relaxed max-w-2xl font-mono">
-            A backend and frontend developer (and sometimes a hardware repairer) and, uh.., welcome to my homepage, and I also really love cats 🐈.
+            A backend and frontend developer (and sometimes a hardware repairer) and, uh.., welcome to my homepage, and I also really love cats <svg class="w-3.5 h-3.5 inline-block align-baseline fill-current text-purple-400" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges"><path d="M1 1h1v2H1zm5 0h1v2H6zm-4 2h4v3H2zm0 3h1v1H2zm2 0h1v1H4zm2 0h1v1H6z" /></svg>.
           </p>
         </div>
       </div>

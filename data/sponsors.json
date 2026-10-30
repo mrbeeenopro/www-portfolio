@@ -1,8 +1,54 @@
 [
   {
+    "name": "Four Seasons Hosting",
+    "handle": "@fourseasonshosting",
+    "amount": 24.00,
+    "period": "/month",
+    "avatarType": "server",
+    "avatarUrl": "/assets/images/sponsors/fourseasons.png",
+    "link": "https://fourseasonshosting.com/"
+  },
+  {
+    "name": "bee.host",
+    "handle": "@bee.host",
+    "amount": 12.00,
+    "period": "/month",
+    "avatarType": "server",
+    "avatarUrl": "/assets/images/sponsors/beehost.png",
+    "link": "https://bee.host/"
+  },
+  {
+    "name": "10 Anonymous Sponsors",
+    "handle": "@anonymous",
+    "amount": 102.00,
+    "period": "",
+    "avatarType": "anonymous",
+    "avatarUrl": "/assets/images/sponsors/anonymous.svg",
+    "link": ""
+  },
+  {
+    "name": "Ivnbyte",
+    "handle": "@ivnbyte",
+    "amount": 25.00,
+    "period": "",
+    "avatarType": "server",
+    "avatarUrl": "/assets/images/sponsors/ivnbyte.svg",
+    "link": "https://ivnbyte.com/"
+  },
+  {
+    "name": "herindz",
+    "handle": "@herindz",
+    "amount": 12.00,
+    "period": "",
+    "avatarType": "server",
+    "avatarUrl": "/assets/images/sponsors/herindz.png",
+    "link": "https://herindz.dev/"
+  },
+  {
     "name": "redsus",
     "handle": "@redsus",
     "amount": 12.00,
+    "period": "",
     "avatarType": "skull",
     "avatarUrl": "",
     "link": ""
@@ -11,6 +57,7 @@
     "name": "omhvn",
     "handle": "@omhvn",
     "amount": 10.00,
+    "period": "",
     "avatarType": "server",
     "avatarUrl": "",
     "link": "https://omhvn.vercel.app/"
@@ -19,6 +66,7 @@
     "name": "h3l2f",
     "handle": "@h3l2f",
     "amount": 1.00,
+    "period": "",
     "avatarType": "cat",
     "avatarUrl": "",
     "link": ""

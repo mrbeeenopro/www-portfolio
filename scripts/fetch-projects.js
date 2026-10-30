@@ -11,11 +11,25 @@ const jsonPath = path.join(dataDir, 'projects.json');
 
 const initialProjects = [
   {
+    "title": "lememhost",
+    "description": "Hạ tầng App Hosting, Cloud VPS Việt Nam & Object Storage S3.",
+    "cover": "/assets/images/projects/lememhost.png",
+    "href": "https://lememdev.qzz.io",
+    "stars": 0
+  },
+  {
     "title": "oldcord",
     "description": "A theme for Discord that brings the old UI back, restoring classic features and nostalgia.",
     "cover": "/assets/images/projects/banner.png",
     "href": "https://github.com/mrbeeenopro/oldcord",
     "stars": 1
+  },
+  {
+    "title": "UMLemem",
+    "description": "running UML in pterodactyl",
+    "cover": "https://opengraph.githubassets.com/1/mrbeeenopro/UMLemem",
+    "href": "https://github.com/mrbeeenopro/UMLemem",
+    "stars": 2
   },
   {
     "title": "Pterodactyl vi language",
@@ -58,7 +72,7 @@ function fetchAndSync() {
 
   const options = {
     hostname: 'api.github.com',
-    path: '/users/mrbeeenopro/repos',
+    path: '/users/mrbeeenopro/repos?per_page=100',
     method: 'GET',
     headers: {
       'User-Agent': 'mrbeeenopro-portfolio-sync'

@@ -26,11 +26,10 @@
         <div class="flex items-center gap-1.5 flex-wrap">
           <span>[x]</span>
           <span class="text-white font-medium">Working on:</span>
-          <a href="https://atakehosting.com" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-white hover:text-purple-300 transition-colors duration-200">
-            <img src="https://pub-e9826afc5f6f44b6896664aafb104826.r2.dev/assets/atakelogo.png" class="w-4 h-4 rounded-sm object-contain" alt="Atakehosting Logo" />
-            <span class="underline">Atakehosting</span>
+          <a href="https://lememdev.qzz.io" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-white hover:text-purple-300 transition-colors duration-200">
+            <img src="https://lememdev.qzz.io/logo.png" class="w-4 h-4 rounded-sm object-contain" alt="lememhost Logo" />
+            <span class="underline">lememhost</span>
           </a>
-          <span class="text-opencode-mute">(lememhost, minemumi)</span>
         </div>
         <div class="flex items-center gap-2">
           <span>[x]</span>

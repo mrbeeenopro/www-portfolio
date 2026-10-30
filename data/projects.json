@@ -1,5 +1,12 @@
 [
   {
+    "title": "lememhost",
+    "description": "Hạ tầng App Hosting, Cloud VPS Việt Nam & Object Storage S3.",
+    "cover": "/assets/images/projects/lememhost.png",
+    "href": "https://lememdev.qzz.io",
+    "stars": 0
+  },
+  {
     "title": "oldcord",
     "description": "A theme for Discord that brings the old UI back, restoring classic features and nostalgia.",
     "cover": "/assets/images/projects/banner.png",
@@ -18,7 +25,7 @@
     "description": "fork of Xlpanel for Calagopus.",
     "cover": "/assets/images/projects/xlpanel.png",
     "href": "https://github.com/mrbeeenopro/Xlpanel",
-    "stars": 0
+    "stars": 2
   },
   {
     "title": "lemem developers",
@@ -32,6 +39,13 @@
     "description": "remake your calagopus panel with <3",
     "cover": "https://opengraph.githubassets.com/1/mrbeeenopro/qunix_theme",
     "href": "https://github.com/mrbeeenopro/qunix_theme",
-    "stars": 4
+    "stars": 8
+  },
+  {
+    "title": "UMLemem",
+    "description": "running UML in pterodacctyl",
+    "cover": "https://opengraph.githubassets.com/1/mrbeeenopro/UMLemem",
+    "href": "https://github.com/mrbeeenopro/UMLemem",
+    "stars": 2
   }
 ]

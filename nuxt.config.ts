@@ -1,15 +1,20 @@
 import { exec } from 'child_process';
 
+const isDev = process.env.NODE_ENV === 'development';
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
-  modules: ["@nuxt/image", "@nuxtjs/plausible"],
+  modules: [
+    "@nuxt/image",
+    ...(isDev ? [] : ["@nuxtjs/plausible"]),
+  ],
   plausible: {
     apiHost: "https://plausible.mrbeeno.pro",
     domain: "mrbeeno.pro",
-    },
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
